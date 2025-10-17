@@ -1,0 +1,45 @@
+/* --- Google Font Import --- */
+/* This line imports the IBM Plex Mono font family from Google Fonts. */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap');
+
+/* --- General Body & Page Styling --- */
+body {
+    background-color: #121212; /* A dark, comfortable background */
+    color: #e0e0e0; /* A soft white for easy reading */
+    font-family: 'IBM Plex Mono', monospace; /* Sets the primary font */
+    font-weight: 400; /* Regular font weight as the default */
+    line-height: 1.7; /* Adds nice spacing between lines of text */
+    max-width: 800px; /* Limits the width of content for better readability on wide screens */
+    margin: 0 auto; /* Centers the content horizontally */
+    padding: 2rem; /* Adds some space around the content */
+}
+
+/* --- Heading Styles --- */
+h2 {
+    color: #00ff99; /* A vibrant, retro green for headings */
+    font-weight: 700; /* Bold font weight to make headings stand out */
+    text-transform: uppercase; /* Makes headings all caps for a stylized look */
+    letter-spacing: 1.5px; /* Adds a bit of spacing between letters */
+    margin-top: 3rem; /* Adds space above the headings to separate sections */
+    padding-bottom: 0.5rem; /* Adds space below the heading text */
+    border-bottom: 2px solid #333; /* A subtle line to underline sections */
+}
+
+/* --- Paragraph Styling --- */
+p {
+    margin-bottom: 1.25rem; /* Standardizes the space after each paragraph */
+}
+
+/* --- Link Styling --- */
+a {
+    color: #00e5ff; /* A bright cyan for links to make them pop */
+    text-decoration: none; /* Removes the default underline */
+    font-weight: 600; /* Makes links slightly bolder */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+a:hover {
+    color: #121212; /* Changes text color on hover */
+    background-color: #00e5ff; /* Adds a highlight effect on hover */
+    text-decoration: none; /* Keeps the underline removed */
+}
