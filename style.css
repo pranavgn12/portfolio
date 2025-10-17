@@ -2,7 +2,7 @@
 body{
     background-color: #eff3f5;
     margin: 2.5% 30% 0 30%;
-    line-height: 3vh;
+    line-height: 30px;
 }
 
 h1{
@@ -27,12 +27,19 @@ h2 {
 }
 
 img{
-    width: 45%;
-    height:33%;
+    width: 48%;
+    height:35%;
     object-fit: cover;
     object-position: center;
     opacity: 0.2;
     position: absolute;
     z-index: -1;
-    margin: 0 0% 0 -3%;
+    margin: 0 0 0 -70px;
+}
+a{
+    color: #4400ff;
+}
+a:hover{
+    background-color: #4400ff;
+    color: white;
 }
