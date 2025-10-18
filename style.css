@@ -15,7 +15,7 @@ a{
 
 body{
     background-color: #eff3f5;
-    max-width: clamp(460px, 40%, 40%);
+    max-width: clamp(350px, 40%, 40%);
     margin-inline: auto;
     line-height: 30px;
 }
@@ -59,3 +59,4 @@ a:hover{
     background-color: #4400ff;
     color: white;
 }
+
