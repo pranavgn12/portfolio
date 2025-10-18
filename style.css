@@ -1,9 +1,25 @@
 
+/*html {
+  cursor: url('cursor.png') 5 5, auto;
+}
+a, button, input[type="submit"] {
+  cursor: inherit;
+}
+
+a,h1,h2,p{
+  cursor: auto;
+}*/
+a{
+    text-decoration: none;
+}
+
 body{
     background-color: #eff3f5;
-    margin: 2.5% 30% 0 30%;
+    max-width: clamp(300px, 90%, 40%);
+    margin-inline: auto;
     line-height: 30px;
 }
+
 
 h1{
   font-family: "IBM Plex Mono", monospace;
