@@ -15,9 +15,10 @@ a{
 
 body{
     background-color: #eff3f5;
-    max-width: clamp(350px, 40%, 40%);
+    max-width: clamp(800px, 40%, 40%);
     margin-inline: auto;
     line-height: 30px;
+    padding-inline:20px;
 }
 
 
@@ -43,14 +44,16 @@ h2 {
 }
 
 img{
-    width: 48%;
-    height:35%;
+    width: clamp(940px, 48%, 48%);
+    margin-inline: auto;
+    height: 35%;
     object-fit: cover;
     object-position: center;
     opacity: 0.2;
     position: absolute;
     z-index: -1;
     margin: 0 0 0 -70px;
+    padding-left: ;
 }
 a{
     color: #4400ff;
@@ -59,4 +62,3 @@ a:hover{
     background-color: #4400ff;
     color: white;
 }
-
