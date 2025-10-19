@@ -64,7 +64,7 @@ p{
   font-style: normal;
   font-size: 16px;
   margin-top: 23px;
-  text-align: justify;
+  /*text-align: justify;*/
 }
 h2 {
     font-weight: 600;
@@ -248,3 +248,4 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
   z-index: 10;
 }
 }
+
