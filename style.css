@@ -9,8 +9,7 @@ a, button, input[type="submit"] {
 a,h1,h2,p{
   cursor: auto;
 }*/
-html,body{
-}
+
 
 a{
     text-decoration: none;
@@ -64,7 +63,7 @@ p{
   font-style: normal;
   font-size: 16px;
   margin-top: 23px;
-  /*text-align: justify;*/
+  text-align: justify;
 }
 h2 {
     font-weight: 600;
@@ -96,7 +95,7 @@ h2 {
 a{
     color: #4400ff;
 }
-a:hover{
+a:not(#ins):hover{
     background-color: #4400ff;
     color: white;
 }
@@ -249,3 +248,17 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
 }
 }
 
+
+#ins {
+      filter: grayscale(100%); 
+      margin-inline: 40%;
+}
+#ins:hover {
+  filter: grayscale(0%);
+  color: black;
+  font-weight: 500;
+}
+#ig{
+    transform: translateY(5px);
+    width: 25px;
+}
