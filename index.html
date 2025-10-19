@@ -1,74 +1,264 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-</head>
-<body>
-    <img src="plane.gif" id="gif"/>
-    <img src="textb.png" id="mewfuzz"/>
-    <p>Hello! I usually go by Mewfuzz or some nickname on the Internet, though my real name is Pranav. Many things capture my intrest and this site features some of them.</p>
-    <p>Reach out: <a href="mailto:pranavgn2005@gmail.com">[pranavgn2005@gmail.com]</a> or discord @mewfuzz</a>
-    <br/>Find me: <a href="https://github.com/pranavgn12" target="_blank">[Github]</a> <a href="https://www.linkedin.com/in/pranav-g-n-ba8a94296/" target="_blank">[Linkdin]</a></p>
-    <br/>
-    <h2>Computers!</h2>
-    <p>
-        I got a computer at home when was in 5th grade. The curiousity unfolded about how it worked, usage and games. I spent my time daily intracting with computer. Luckily 
-        i got exposed to Linux through ubuntu. The schools were using a customized distro of ubuntu "Edubuntu" tailered for education needs with most popular opensource programs. It was fun to play with it. I learned about some linux stuff too.
-        <br/><br/>
-        Dad got me introduced to <a href ="https://scratch.mit.edu" target="_blank">SCRATCH</a>. I learned to program by making many games and projects,<a href ="https://scratch.mit.edu/users/pranavhaha/projects/" target="_blank">[Checkout my projects]</a>. I have designed games, game assests , thunmbnails etc. 
-        Scratch is cool with many creators making amazing projects. I took inspiration from them and created or implemented from them. Some of my games are popular.
-        I have interacted with scartch community, talked with many folks and it was fun to collaborate with them.
-        <br/><br/>
-        Recently i spend most of my time working with computers, learning about programming, AI, AI infrastructure, GPUs, Processor, Scienece, semiconductor innovations, and low-level computing. I also enjoy tinkering with Linux using YouTube tutorials.
-    </p>
-    <h2>Animes!</h2>
-    <p>I really enjoy anime, from intriguing series like Heavenly Delusion—a post-apocalyptic story following characters navigating a devastated world while exploring themes of identity, survival, and the blurred lines between reality and illusion—to comedies like Kaguya-sama: Love Is War. I occasionally draw some of these characters and often find creative inspiration from these shows.
-    <h3>Ghibli!</h3>
-    <p>I really love ghibli movies. Ghibli movies portray good human values. They are much closer to real life. There is <span id="magic">magic</span> in ghbili movies. Ghibli movies have amazing level of details. The the deliberate use of negative space, pauses, and intervals creates a sense of balance, harmony, and meaning  in ghibli movies. Ghibli movies are charming and relaxing to watch. My favourite ghilbi movies are <span id="favGh">Spirited Away, The wind Rises, Nausicaä of the Valley of the Wind, My Neighbor Totoro etc.</span> </p>
-    <br/>
-    <span id="ani">
-    <img src="hd.jpg" class="anime" id="hd"/>
-    <img src="sa.webp" class="anime" id="sa"/>
-    <img src="ntvow.jpeg" class="anime" id="ntvow"/>
-    <img src="mnt.jpeg"  class="anime" id="mnt"/>
-    <img src="twr.jpg" class="anime" id="twr"/>
-    </span>
-    </p>
-    <h2>
-        Music!
-    </h2>
-    <p>
-    I love japanese music that is sometimes ending/ opening of some animes. They are creative and enjoyable. <br/>Some of my favorite Channels are,
-<ul>
-<li>
-        <a href="https://www.youtube.com/@rimy_asobi" target="_blank">りみー(RiMy) / ASOBI同盟
-        </a>
-</li>
-<li>
-        <a href="https://www.youtube.com/@Ayase_YOASOBI" target="_blank">Ayase / YOASOBI </a>
-</li>
-<li>
-        <a href="https://www.youtube.com/channel/UCcd-GOvl9DdyPVHQxy58bOw" target="_blank">ずっと真夜中でいいのに。ZUTOMAYO
- </a>
-</li>
-<li>
-        <a href="https://www.youtube.com/@The_FirstTake" target="_blank">THE FIRST TAKE
 
- </a>
-</li>
-</ul>
-</p>
-    <p>
-    </p>
-    <h2>Other things!</h2>
-    <P>For the first time in my life, I've started liking physical activity. I am a fan of origami. I love English movies like knives out, shutter island. 
-        <span id="bye">Byeeeeeeeeeeeeee.</span></P>
-        <br/>
-</body>
-</html>
+/*html {
+  cursor: url('cursor.png') 5 5, auto;
+}
+a, button, input[type="submit"] {
+  cursor: inherit;
+}
+
+a,h1,h2,p{
+  cursor: auto;
+}*/
+
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "IBM Plex Mono", monospace;
+    background-color: #eff3f5;
+    max-width: clamp(600px, 40%, 40%);
+    margin-inline: auto;
+    line-height: 30px;
+    padding-inline: 30px;
+   
+}
+li{
+  margin-left: 20px;
+}
+ul{
+  padding-left: 0px;
+}
+
+h3{
+    
+    font-weight: 400;
+	  margin: 30px 0 0;
+    font-size: 25px;
+}
+
+#magic{
+  font-weight: 400;
+  background: linear-gradient(45deg, #8e2de2, #4a00e0, #ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* For Firefox */
+  background-clip: text;
+  color: transparent;
+}
+#favGh{
+    font-weight: 500;
+    color: #ff2600;   
+}
+
+#mewfuzz{
+  padding-top: 92px;
+  opacity: 1;
+  width: 280px;
+}
+
+p{
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  margin-top: 23px;
+  text-align: justify;
+}
+h2 {
+    font-weight: 600;
+	  margin: 60px 0 0;
+    font-size: 25px;
+}
+
+#gif{
+    /*width: 48%;
+    height: 35%;
+    object-fit: cover;
+    opacity: 0.2;
+    position: absolute;
+    z-index: -1;
+    margin-left: -3%;*/
+    opacity: 0.2;
+    position:absolute;
+    width:  min(900px,100%);
+    height: min(360px,100%);
+    overflow:hidden;
+    object-fit: cover;
+    left:-10px;
+    right:-10px;
+    margin: 33px auto 0;
+    pointer-events:none;
+    z-index:-1;
+    
+}
+a{
+    color: #4400ff;
+}
+a:not(#ins):hover{
+    background-color: #4400ff;
+    color: white;
+}
+
+
+@media (max-width: 570px) {
+  #gif {
+    width:  min(600px,100%);
+    height: min(420px,100%);
+  }
+}
+
+@media (max-width: 460px) {
+  #gif {
+    width:  min(600px,100%);
+    height: min(450px,100%);
+  }
+}
+
+#bye{
+  display: inline-block;
+  transform-origin: left top;
+  transform: rotate(15deg);
+}
+
+#ani{
+margin-block: 20px;
+text-align: center;
+padding-top: 35px;
+filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
+
+}
+
+
+.anime{
+  overflow-x: hidden;
+  width: 22%;
+  border:#eff3f5 4px solid;
+  margin-left: -6%;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+  transform-origin: center;
+}
+
+
+
+#hd{
+  transform: translateX(30%) scale(1.2) rotate(-15deg);
+}
+#sa{
+  transform: translateX(30%) scale(1.2) rotate(-7.5deg);
+}
+
+#ntvow{
+  transform: translateX(30%) scale(1.2) rotate(0deg);
+}
+
+#mnt{
+  transform: translateX(30%) scale(1.2) rotate(7.5deg);
+}
+
+#twr{
+  transform: translateX(30%) scale(1.2) rotate(15deg);
+}
+
+#hd:hover {
+  transform: translateX(30%) scale(1.2) rotate(-15deg) translateY(-8px);
+  z-index: 10;
+}
+
+#sa:hover {
+  transform: translateX(30%) scale(1.2) rotate(-7.5deg) translateY(-8px);
+  z-index: 10;
+}
+
+#ntvow:hover {
+  transform: translateX(30%) scale(1.2) rotate(0deg) translateY(-8px);
+  z-index: 10;
+}
+
+#mnt:hover {
+  transform: translateX(30%) scale(1.2) rotate(7.5deg) translateY(-8px);
+  z-index: 10;
+}
+
+#twr:hover {
+  transform: translateX(30%) scale(1.2) rotate(15deg) translateY(-8px);
+  z-index: 10;
+}
+
+
+
+
+
+
+@media (max-width: 460px) {
+  .anime{
+  width: 22%;
+  border:#eff3f5 4px solid;
+  margin-left: -10%;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+  transform-origin: center;
+}
+
+#hd{
+  transform: translateX(60%) scale(1.2) rotate(-15deg);
+}
+#sa{
+  transform: translateX(60%) scale(1.2) rotate(-7.5deg);
+}
+
+#ntvow{
+  transform: translateX(60%) scale(1.2) rotate(0deg);
+}
+
+#mnt{
+  transform: translateX(60%) scale(1.2) rotate(7.5deg);
+}
+
+#twr{
+  transform: translateX(60%) scale(1.2) rotate(15deg);
+}
+
+#hd:hover {
+  transform: translateX(60%) scale(1.2) rotate(-15deg) translateY(-8px);
+  z-index: 10;
+}
+
+#sa:hover {
+  transform: translateX(60%) scale(1.2) rotate(-7.5deg) translateY(-8px);
+  z-index: 10;
+}
+
+#ntvow:hover {
+  transform: translateX(60%) scale(1.2) rotate(0deg) translateY(-8px);
+  z-index: 10;
+}
+
+#mnt:hover {
+  transform: translateX(60%) scale(1.2) rotate(7.5deg) translateY(-8px);
+  z-index: 10;
+}
+
+#twr:hover {
+  transform: translateX(60%) scale(1.2) rotate(15deg) translateY(-8px);
+  z-index: 10;
+}
+}
+
+
+#ins {
+      filter: grayscale(100%); 
+      margin-inline: 40%;
+}
+#ins:hover {
+  filter: grayscale(0%);
+  color: black;
+  font-weight: 500;
+}
+#ig{
+    transform: translateY(5px);
+    width: 25px;
+}
