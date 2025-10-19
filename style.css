@@ -10,6 +10,7 @@ a,h1,h2,p{
   cursor: auto;
 }*/
 
+
 a{
     text-decoration: none;
 }
@@ -261,4 +262,5 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
     transform: translateY(5px);
     width: 25px;
 }
+
 
