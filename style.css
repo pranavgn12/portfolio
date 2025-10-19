@@ -40,7 +40,11 @@ h3{
 
 #magic{
   font-weight: 400;
-  background: linear-gradient(45deg, #8e2de2, #4a00e0, #ff0080);
+  background: linear-gradient(45deg, #ff009d, #002fff, #ffbb00)
+
+
+
+;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   /* For Firefox */
@@ -251,7 +255,7 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
 
 #ins {
       filter: grayscale(100%); 
-      margin-inline: 40%;
+      margin-inline: 30%;
 }
 #ins:hover {
   filter: grayscale(0%);
@@ -261,4 +265,8 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
 #ig{
     transform: translateY(5px);
     width: 25px;
+}
+
+#insp{
+  /*margin-left: 10%;*/
 }
