@@ -15,21 +15,17 @@ a{
 
 body{
     background-color: #eff3f5;
-    max-width: clamp(600px, 39%, 39%);
+    max-width: clamp(600px, 40%, 40%);
     margin-inline: auto;
     line-height: 30px;
     padding-inline: 20px;
-   
-    
 }
 
 
-h1{
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 800;
-  font-style: normal;
-  font-size: 60px;
- padding-top: 65px;
+#mewfuzz{
+  padding-top: 92px;
+  opacity: 1;
+  width: 280px;
 }
 
 p{
@@ -46,7 +42,7 @@ h2 {
     font-size: 25px;
 }
 
-img{
+#gif{
     /*width: 48%;
     height: 35%;
     object-fit: cover;
@@ -62,7 +58,7 @@ img{
     object-fit: cover;
     left:-10px;
     right:-10px;
-    margin:0px auto 0;
+    margin: 33px auto 0;
     pointer-events:none;
     z-index:-1;
     
@@ -77,14 +73,14 @@ a:hover{
 
 
 @media (max-width: 570px) {
-  img {
+  #gif {
     width:  min(600px,100%);
     height: min(420px,100%);
   }
 }
 
 @media (max-width: 460px) {
-  img {
+  #gif {
     width:  min(600px,100%);
     height: min(450px,100%);
   }
