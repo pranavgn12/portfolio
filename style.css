@@ -9,18 +9,49 @@ a, button, input[type="submit"] {
 a,h1,h2,p{
   cursor: auto;
 }*/
+html,body{
+}
+
 a{
     text-decoration: none;
 }
 
 body{
+    font-family: "IBM Plex Mono", monospace;
     background-color: #eff3f5;
     max-width: clamp(600px, 40%, 40%);
     margin-inline: auto;
     line-height: 30px;
-    padding-inline: 20px;
+    padding-inline: 30px;
+   
+}
+li{
+  margin-left: 20px;
+}
+ul{
+  padding-left: 0px;
 }
 
+h3{
+    
+    font-weight: 400;
+	  margin: 30px 0 0;
+    font-size: 25px;
+}
+
+#magic{
+  font-weight: 400;
+  background: linear-gradient(45deg, #8e2de2, #4a00e0, #ff0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* For Firefox */
+  background-clip: text;
+  color: transparent;
+}
+#favGh{
+    font-weight: 500;
+    color: #ff2600;   
+}
 
 #mewfuzz{
   padding-top: 92px;
@@ -29,14 +60,13 @@ body{
 }
 
 p{
-  font-family: "IBM Plex Mono", monospace;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
   margin-top: 23px;
+  text-align: justify;
 }
 h2 {
-    font-family: "IBM Plex Mono", monospace;
     font-weight: 600;
 	  margin: 60px 0 0;
     font-size: 25px;
@@ -84,4 +114,137 @@ a:hover{
     width:  min(600px,100%);
     height: min(450px,100%);
   }
+}
+
+#bye{
+  display: inline-block;
+  transform-origin: left top;
+  transform: rotate(15deg);
+}
+
+#ani{
+margin-block: 20px;
+text-align: center;
+padding-top: 35px;
+filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
+
+}
+
+
+.anime{
+  overflow-x: hidden;
+  width: 22%;
+  border:#eff3f5 4px solid;
+  margin-left: -6%;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+  transform-origin: center;
+}
+
+
+
+#hd{
+  transform: translateX(30%) scale(1.2) rotate(-15deg);
+}
+#sa{
+  transform: translateX(30%) scale(1.2) rotate(-7.5deg);
+}
+
+#ntvow{
+  transform: translateX(30%) scale(1.2) rotate(0deg);
+}
+
+#mnt{
+  transform: translateX(30%) scale(1.2) rotate(7.5deg);
+}
+
+#twr{
+  transform: translateX(30%) scale(1.2) rotate(15deg);
+}
+
+#hd:hover {
+  transform: translateX(30%) scale(1.2) rotate(-15deg) translateY(-8px);
+  z-index: 10;
+}
+
+#sa:hover {
+  transform: translateX(30%) scale(1.2) rotate(-7.5deg) translateY(-8px);
+  z-index: 10;
+}
+
+#ntvow:hover {
+  transform: translateX(30%) scale(1.2) rotate(0deg) translateY(-8px);
+  z-index: 10;
+}
+
+#mnt:hover {
+  transform: translateX(30%) scale(1.2) rotate(7.5deg) translateY(-8px);
+  z-index: 10;
+}
+
+#twr:hover {
+  transform: translateX(30%) scale(1.2) rotate(15deg) translateY(-8px);
+  z-index: 10;
+}
+
+
+
+
+
+
+@media (max-width: 460px) {
+  .anime{
+  width: 22%;
+  border:#eff3f5 4px solid;
+  margin-left: -10%;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
+  transform-origin: center;
+}
+
+#hd{
+  transform: translateX(60%) scale(1.2) rotate(-15deg);
+}
+#sa{
+  transform: translateX(60%) scale(1.2) rotate(-7.5deg);
+}
+
+#ntvow{
+  transform: translateX(60%) scale(1.2) rotate(0deg);
+}
+
+#mnt{
+  transform: translateX(60%) scale(1.2) rotate(7.5deg);
+}
+
+#twr{
+  transform: translateX(60%) scale(1.2) rotate(15deg);
+}
+
+#hd:hover {
+  transform: translateX(60%) scale(1.2) rotate(-15deg) translateY(-8px);
+  z-index: 10;
+}
+
+#sa:hover {
+  transform: translateX(60%) scale(1.2) rotate(-7.5deg) translateY(-8px);
+  z-index: 10;
+}
+
+#ntvow:hover {
+  transform: translateX(60%) scale(1.2) rotate(0deg) translateY(-8px);
+  z-index: 10;
+}
+
+#mnt:hover {
+  transform: translateX(60%) scale(1.2) rotate(7.5deg) translateY(-8px);
+  z-index: 10;
+}
+
+#twr:hover {
+  transform: translateX(60%) scale(1.2) rotate(15deg) translateY(-8px);
+  z-index: 10;
+}
 }
