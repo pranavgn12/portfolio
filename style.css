@@ -9,6 +9,16 @@ a, button, input[type="submit"] {
 a,h1,h2,p{
   cursor: auto;
 }*/
+#cur{
+  font-size: 70px;
+}
+
+h1{
+    font-weight: 800;
+    padding-top: 110px;
+    font-size: 60px;
+}
+
 
 
 a{
@@ -141,7 +151,7 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
   margin-left: -6%;
   position: relative;
   display: inline-block;
-  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1), filter 0.3s cubic-bezier(0.33, 1, 0.68, 1);;
+  transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1), filter 0.3s cubic-bezier(0.33, 1, 0.68, 1);
   transform-origin: center;
 }
 
@@ -169,31 +179,31 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
 #hd:hover {
   transform: translateX(30%) scale(1.2) rotate(-15deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(010px 10px 5px rgba(0, 0, 0, 0.2));
 }
 
 #sa:hover {
   transform: translateX(30%) scale(1.2) rotate(-7.5deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 }
 
 #ntvow:hover {
   transform: translateX(30%) scale(1.2) rotate(0deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 }
 
 #mnt:hover {
   transform: translateX(30%) scale(1.2) rotate(7.5deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 }
 
 #twr:hover {
   transform: translateX(30%) scale(1.2) rotate(15deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 }
 
 
@@ -234,32 +244,32 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
 #hd:hover {
   transform: translateX(60%) scale(1.2) rotate(-15deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 
 }
 
 #sa:hover {
   transform: translateX(60%) scale(1.2) rotate(-7.5deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 }
 
 #ntvow:hover {
   transform: translateX(60%) scale(1.2) rotate(0deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 }
 
 #mnt:hover {
   transform: translateX(60%) scale(1.2) rotate(7.5deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 }
 
 #twr:hover {
   transform: translateX(60%) scale(1.2) rotate(15deg) translateY(-8px);
   z-index: 10;
-  filter: drop-shadow(10px 10px 4px rgba(0, 0, 0, 0.2));
+  filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
 }
 }
 
@@ -278,6 +288,3 @@ filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.4));
     width: 25px;
 }
 
-#insp{
-  /*margin-left: 10%;*/
-}
