@@ -23,8 +23,7 @@ h1{
 .trail{
 position: absolute;
 width: 15vw;
-height: 10vh;
-background-color: #dfe3e7;
+height: 17vh;
 filter: blur(10px);
 pointer-events: none;
 z-index: -2;
