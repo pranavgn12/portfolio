@@ -27,8 +27,14 @@ showcur();
 
 
 document.addEventListener('mousemove',(e)=>{
+       if(window.innerWidth > window.innerHeight){
       x =window.innerWidth/parseInt(1/0.15) * parseInt(e.pageX/ (window.innerWidth/parseInt(1/0.15)));
       y= window.innerHeight/parseInt(1/0.20) * parseInt(e.pageY/ (window.innerHeight/parseInt(1/0.20)));
+       }
+       else{
+      x =window.innerWidth/parseInt(1/0.28) * parseInt(e.pageX/ (window.innerWidth/parseInt(1/0.28)));
+      y= window.innerHeight/parseInt(1/0.15) * parseInt(e.pageY/ (window.innerHeight/parseInt(1/0.15)));        
+       }
 })
 
 
@@ -39,12 +45,12 @@ document.addEventListener('mousemove', (e) => {
       rect.style.left = `${x}px`;
       rect.style.top = `${y}px`;
       if(window.innerWidth > window.innerHeight){
-      rect.style.width = `15vw`;
-      rect.style.height = `17vh`;
+      rect.style.width = `15%`;
+      rect.style.height = `17%`;
       }
       else{
-      rect.style.width = `17vw`;
-      rect.style.height = `15vh`;
+      rect.style.width = `25%`;
+      rect.style.height = `10%`;
     }
       rect.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 90%)`;
       px=x;
