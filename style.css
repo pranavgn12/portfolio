@@ -22,8 +22,6 @@ h1{
 
 .trail{
 position: absolute;
-width: 15vw;
-height: 17vh;
 filter: blur(10px);
 pointer-events: none;
 z-index: -2;

@@ -38,6 +38,14 @@ document.addEventListener('mousemove', (e) => {
       rect.classList.add('trail');
       rect.style.left = `${x}px`;
       rect.style.top = `${y}px`;
+      if(window.innerWidth > window.innerHeight){
+      rect.style.width = `15vw`;
+      rect.style.height = `17vh`;
+      }
+      else{
+      rect.style.width = `17vw`;
+      rect.style.height = `15vh`;
+    }
       rect.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 90%)`;
       px=x;
       py=y;
