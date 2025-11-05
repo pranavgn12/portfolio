@@ -20,6 +20,29 @@ h1{
 }
 
 
+.trail{
+position: absolute;
+width: 15vw;
+height: 10vh;
+background-color: #dfe3e7;
+filter: blur(10px);
+pointer-events: none;
+z-index: -2;
+transform: translate(0%, 0%);
+transition: opacity 0.5s linear;
+}
+
+ /*.trail {
+      position: absolute;
+      width: 30px;
+      height: 20px;
+      background: rgba(0, 255, 150, 0.8);
+      border-radius: 4px;
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: opacity 0.5s linear; 
+    }*/
+
 
 a{
     text-decoration: none;
